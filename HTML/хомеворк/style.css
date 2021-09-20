@@ -20,9 +20,18 @@ h2	{
 		text-shadow:3px 3px 2px #ccc;
 		}
 		h4
-{	
-text-align:center;
-color: rgb(250,0,0);
-font-size:24px;
-font-family: comic sans ms;
+			{	
+			text-align:center;
+			color: rgb(46, 0, 250);
+			font-size:24px;
+			font-family: comic sans ms;
+			}
+
+. 1 {
+width: 250px;
+height: 300px;
+position: obsolute;
+top: 0;
+right: 50%	
+
 }
