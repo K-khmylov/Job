@@ -1,14 +1,51 @@
 <!DOCTYPE.html>
 <html lang="en"> 
     <link href="style.css" rel="stylesheet">
+    <link rel="SHORTCUT ICON" href="https://img.icons8.com/material-outlined/24/000000/watches-front-view--v1.png" type="picture">
 <head>
     <title>Clock.shop</title>
     <meta charset="UTF-8">
+    <style>
+        
+a.button5 {
+  display: inline-block;
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+  user-select: none;
+  padding: 0 5px;
+  outline: none;
+  border-radius: 2px;
+}
+a.button5:before {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;  
+  padding-right: 5px;
+}
+a.button5[data-vk]:before {content: url(https://img.icons8.com/color/48/000000/vk-circled.png);}
+a.button5[data-instagram]:before {content: url(https://img.icons8.com/fluency/48/000000/instagram-new.png);}
+a.button5:hover {
+  background: linear-gradient(#ececeb, #eaeaea);
+  box-shadow:
+   inset rgba(0,0,0,.5) 0 -1px 1px,
+   inset rgba(0,0,0,.2) 0 1px,
+   inset #fff 0 2px,
+   rgba(0,0,0,.2) 0 1px 1px;
+}
+a.button5:active {
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.1));
+  box-shadow:
+   inset rgba(0,0,0,.8) 0 1px 2px,
+   inset rgba(0,0,0,.05) 0 -1px 0,
+   #fff 0 1px 1px;
+}
+    </style>
 </head>
 
 <body>
     <header>
-        <img src="header-clock.jpg">
+        <img src="img/header-clock.jpg">
     </header>
 <h1>
   <p align="center">
@@ -16,7 +53,7 @@
 </p>
   </h1>
  <p>
-    Мы начинающая компания по продаже часов. У нас Вы найдете <b>наручные часы производства Швейцарии, США, Германии, Японии, России и др</b>. На сайте представлены только <b>оригинальные часы от производителя (не копии).
+    Мы начинающая компания по продаже <a href="#1"><b>часов</b></a>. У нас Вы найдете <b>наручные часы производства Швейцарии, США, Германии, Японии, России и др</b>. На сайте представлены только <b>оригинальные часы от производителя (не копии).
     Ценовой диапазон часов очень разнообразен.</b> В основном, <b>это общедоступные качественные часы для покупателя «среднего класса» от 500 руб.</b> до 30 000 руб. Однако, для более разборчивого и взыскательного клиента, мы можем предложить <strong>эксклюзивные модели лимитированных серий стоимостью до 50 000 долларов!</strong>
     На сайте можно получить всю полезную информацию о швейцарских часовых компаниях, основные характеристики часов, статьи о качестве и особенностях швейцарских часов, новости часового бизнеса.  
  </p>
@@ -34,18 +71,11 @@
  <h3>
     <p align="center"> 
      ВНИМАНИЕ!
-     <img src="rec.jpg">
-     <form>
-    </p>
-    <p><input
-       type="image" image src="купить.png" 
-        >
-       
-        </p> 
-       </form>
+     <img src="img/rec.jpg">
+    
  </h3>    
  <p>
-     <h2>
+     <h2 id="1">
          <big>
              <p align="center">
                  <font color="cd7f32">
@@ -61,7 +91,7 @@
             Часы Tissot
         </font>
         </p>
-        <img src="tissot.png">
+        <a href="все html/tisoot.html" target="_blank"><img src="img/tissot.png"></a> 
         <br>
         <font size="6">Цена: <del> 16000</del></font>
             <font color="red" size="7" face="Arial">13999</font>
@@ -72,7 +102,7 @@
                     </font>
             </p>
             <p align="center">
-                <img src="guess.jpg" >
+                <a href="все html/guess.html"><img src="img/guess.jpg" ></a>  
                 <br>
                 <font size="6">Цена: <del>13000 </del></font>
                 <font color="red" size="7" face="Arial">10999</font>
@@ -86,7 +116,9 @@
         Контактная информация 
         </p>
     </h4>
-    <img src="footer1.png"> 
+    <img src="img/footer1.png"> 
+    <a href="https://www.instagram.com/k_khmylov/" class="button5" data-vk>VK</a>
+    <a href="https://www.instagram.com/k_khmylov/" class="button5" data-instagram>Instagram</a>
 </footer>
 
 </body>
