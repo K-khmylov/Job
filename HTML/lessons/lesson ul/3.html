@@ -2,6 +2,16 @@
 <html>
     <head>
         <title> BLINK</title>
+        <STYLE>
+            ol {
+            list-style: none; 
+            counter-reset: li; 
+            }
+            li:before {
+            counter-increment: li; 
+            content: counters(li,".") ". "; 
+            }
+        </STYLE>
     </head>
 
 
@@ -21,17 +31,32 @@
                         <li>флэш-память</li>
                         <li>оптические диски</li>
                     </ol>
-                            <ol start="2.2.3">
-                                <li>Функциональные</li>
-                                <li>Мультипарадигмальные</li>
-                                <li>CD</li>
-                                <li>DVD</li>
-                                <li>TVDVD</li>
-                            </ol>
-                            
-        </ol>
-
-     
+                </li> 
+              </ol>
+            </li> 
+            
+          </ol>
+        
+        </li> 
+        <li>Устройства ввода</li>  
+            <ol>
+                <li>Клавиатура</li>
+                <li>Мышь</li>
+                <li>Сканер</li>
+                <li>Микрофон</li>
+                <li>Джойстик</li>
+            </ol>   
+        <li>Устройства вывода</li>
+                    <ol>
+                        <li>Монитор</li>
+                        <ol>
+                            <li>Монитор 4К</li>
+                            <li>Монитор 8К</li>
+                       
+                        </ol>
+                    </ol>
+    </ol>
+    
 </font>
 
    
