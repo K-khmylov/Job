@@ -93,6 +93,17 @@ a.cta{
     background-color: #000;
 }
 
+div.clock1{ 
+    display: block;
+    margin: 10px;
+    margin-top: auto;
+    box-sizing: border-box;
+    background-position-x: 250px ;
+    background-position-y: top;
+   
+
+}
+
 a.button5 {
 display: inline-block;
 color: #000;

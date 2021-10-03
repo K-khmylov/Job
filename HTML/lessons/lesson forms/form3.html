@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>forms</title>
+ </head>
+ <body>
+    <form>
+        <h3>
+            <b>Запись на курсы</b>
+                <hr>
+                    <label>
+                        <small>Имя:</small><br>  
+                        <input type="text" placeholder="Введите имя" name="имя" maxlength="15" required>
+                    </label>
+
+                    <p>
+                    <label>
+                        <small>Язык програмирования:</small>
+                            <br>
+                                <small>
+                                    <input type="radio" name="языки програмирования" required>PHP<br>
+                                    <input type="radio" name="языки програмирования" required>Js<br>
+                                    <input type="radio" name="языки програмирования" required>Python<br>
+                                </small>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <small>Доп. информация<br></small>
+                            <textarea name="aboutuser" cols="25" rows="6"></textarea>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Секретное слово:<br>
+                        <input type="password" name="серктоное слово" maxlength="15" required>
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="submit" name="отправить" value="отправить">
+                        <input type="reset" name="сбросить" value="очистить">
+                    </label>
+                </p>
+
+        </h1>
+
+
+    </form>
+ 
+ </body>
+</html>

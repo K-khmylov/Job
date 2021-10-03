@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>forms</title>
+ </head>
+ <body>
+    <form name="параметры автомобиля">
+        <fieldset>
+            <legend>Параметры автомобиля </legend>
+                Марка автомобиля: <input type="text" name="автомобиль" placeholder="введите марку авто" required> 
+                <p>
+                    Объём двигателя(см³): <input type="number" name="объём двигателя" placeholder="1900" maxlength="4" required> 
+                </p>
+                Область: <input type="text" name="область" placeholder="введите область" maxlength="10" required>
+                <p>
+                    Тип Двигателя:<br>
+                    <input type="checkbox" name="тип двигателя" required>Электро<br>
+                    <input type="checkbox" name="тип двигателя" required>Гибрид<br>
+                    <input type="checkbox" name="тип двигателя" required>Дизель<br>
+                    <input type="checkbox" name="тип двигателя" required>Бензин<br>
+                    <input type="checkbox" name="тип двигателя" required>Турбодизель<br>
+                    <input type="checkbox" name="тип двигателя" required>ТурбоБензин<br>
+                    <input type="checkbox" name="тип двигателя" required>Электро++<br>
+                </p>
+                
+                <p>
+                    Доп. информация:<br>
+                    <textarea name="aboutuser" cols="25" rows="6"></textarea>
+                </p>
+                
+                <P>
+                    <input type="submit" name="отправить" value="отправить">
+                    <input type="reset" name="сбросить" value="очистить">
+                </P>
+
+        
+
+       
+    </fieldset>
+    </form>
+ 
+ </body>
+</html>
