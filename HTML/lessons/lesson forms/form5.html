@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>forms</title>
+  
+
+ </head>
+ <body>
+
+ <h1 align="center">Aнкета</h1>
+    <form autocomplete="off">
+        <fieldset>
+            <p> <label>
+                Фамилия: <input type="text" name="surname">
+            </p></label>
+
+            <p>
+                <label>
+                    Имя: <input type="text" name="name">
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                    Отчество: <input type="text" name="middle_name">
+                </label>
+            </p>
+            <hr>
+            <p>
+               О себе расскажу следующее: 
+            </p>
+            <hr>
+
+            <p>
+                <label>
+                    Пол: 
+                   Man <input type="radio" name="sex" value="1">
+                   Wemen<input type="radio" name="sex" value="2">
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                    Дата рождени: <input type="date" name="date_of_birth">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Кол-во полных лет: <input type="number" name="age" max="100" min="1">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Адрес места жительсва: <input type="text" name="adress">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Номер телефона: +375<input type="tel" name="phone_number" maxlength="9" minlength="9">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Контактный email: <input type="email" name="email">
+                </label>
+            </p>
+
+            <p>
+                
+                    Образование: <br>
+                    <input type="radio" name="education" value="1">Cреднее<br>
+                    <input type="radio" name="education" value="2">Высшее<br>
+                    <input type="radio" name="education" value="3">Нет<br>
+                    <input type="radio" name="education" value="4">Полупрофессиональное<br>
+                
+            </p>
+
+            <p>
+                <label>
+                    Профессия(специальность): <input type="text" name="profession">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Стаж работы: <select name="experience">
+                        <option value="1">менее 2 лет</option> 
+                        <option value="2">от 2 до 5</option> 
+                        <option value="3">от 5 до 10</option> 
+                        <option value="4">от 10 до 15 </option> 
+                        <option value="5">15+ </option>
+                        </select>
+                        
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Предыдущие место работы: <input type="text" name="prior_work">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Период работы на прошлом месте: c  <input type="date" name="data1">  по  <input type="date" name="data2">
+                </label>
+            </p>
+
+            
+            <p>
+                <label>
+                     <input type="button" value="Отправить"  onclick="checkForm()">   <input type="reset" value="Сброс">
+                </label>
+            </p>
+
+            
+            
+
+
+
+
+
+
+
+        </fieldset>
+         
+
+    </form>
+ 
+ </body>
+ <script  src="form2.js"></script>
+</html>
