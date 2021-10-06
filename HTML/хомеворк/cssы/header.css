@@ -4,7 +4,8 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    
+
+
  
 
 }
@@ -169,28 +170,30 @@ background-position: initial;
 
 div.clock{
     box-sizing: border-box;
+    text-align: center;
+    margin-left: 50px;
     float: left;
+   
     
-    
-    
-
 
 }
 div.clock1{
     box-sizing: border-box;
+    text-align: center;
+    margin-left: 100px;
     float: left;
-    margin-left: 150px;
+   
 
+}
+div.clock2{
+    box-sizing: border-box;
+    text-align: center;
+    
+    float: left;
+   
 
 }
 
-p.imgforcloc{
-    background-position: initial;
-    background-color: darkblue;
-    width: 1380px;
-    height: 100px;
-
-}
 
 
 
