@@ -2,19 +2,18 @@
 
 *{
     box-sizing: border-box;
-    background-color: black;
     margin: 0px;
     padding: 0px;
-    background-color: #ffffff;
+    
  
 
 }
 
-li, a, button{
+li.nav, a, button{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #fafafa;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
    
@@ -52,20 +51,20 @@ header{
     background-color: black;
 }
 
-.nav_links li{
+.nav_links li.nav{
     display: inline-block;
     padding: 0px 20px;
     background-color: black;
 }
 
-.nav_links li a{
+.nav_links li.nav a{
     transition: all 0.3 ease 0s;
     background-color: black;
 }
 
-.nav_links li a:hover{
-    color: #0098;
-    background-color: rgb(255, 255, 255);
+.nav_links li.nav a:hover{
+    color: rgba(0,136,169,1);
+
 }
 
 
@@ -146,6 +145,52 @@ a.a1{
     color: rgba(0, 0, 255, 0.548);
 }
 
+
+button.shop{
+    font: 1em sans-serif;
+    width: 200px;
+    height: 60px;
+    background-color: lawngreen;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 222px;
+    margin-left: 160px;
+
+}
+
+button.shop:hover{
+    background-color: rgb(0, 205, 27);
+}
+
+img.a1{
+background-position: initial;
+}
+
+div.clock{
+    box-sizing: border-box;
+    float: left;
+    
+    
+    
+
+
+}
+div.clock1{
+    box-sizing: border-box;
+    float: left;
+    margin-left: 150px;
+
+
+}
+
+p.imgforcloc{
+    background-position: initial;
+    background-color: darkblue;
+    width: 1380px;
+    height: 100px;
+
+}
 
 
 
