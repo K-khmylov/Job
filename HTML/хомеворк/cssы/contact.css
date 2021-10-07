@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -85,9 +84,6 @@ header{
     
 }
 
-h1{
-    color: rgba(65, 105, 225, 0.479);
-}
 
 a.cta{
     background-color: #000;
@@ -95,43 +91,6 @@ a.cta{
 
 
 
-a.button5 {
-display: inline-block;
-color: #000;
-font-size: 12px;
-text-decoration: none;
-user-select: none;
-padding: 0 5px;
-outline: none;
-border-radius: 2px;
-}
-
-  a.button5:before {
-display: inline-block;
-vertical-align: middle;
-line-height: 1;  
-padding-right: 5px;
-}
-
-
-a.button5[data-vk]:before {content: url(https://img.icons8.com/color/48/000000/vk-circled.png);}
-a.button5[data-instagram]:before {content: url(https://img.icons8.com/fluency/48/000000/instagram-new.png);}
-a.button5:hover {
-background: linear-gradient(#575050ce, #413333c7);
-box-shadow:
-inset rgba(71, 65, 65, 0.781) 0 -1px 1px,
-inset rgba(71, 65, 65, 0.781) 0 1px,
-inset rgba(71, 65, 65, 0.781) 0 2px,
-rgba(71, 65, 65, 0.781) 0 1px 1px;
-}
-
-a.button5:active {
-background: linear-gradient(rgba(0,0,0,.2), rgba(71, 65, 65, 0.781));
-box-shadow:
-inset rgba(71, 65, 65, 0.781) 0 1px 2px,
-inset rgba(71, 65, 65, 0.781) 0 -1px 0,
-rgba(71, 65, 65, 0.781) 0 1px 1px;
-}
 
 a.a1{
     color: rgba(0, 0, 255, 0.548);
@@ -162,32 +121,44 @@ background-position: initial;
 div.clock{
     box-sizing: border-box;
     text-align: center;
-    margin-left: 50px;
-    
+    margin-left: 100px;
+
    
     
 
 }
+
+
+
 div.clock1{
     box-sizing: border-box;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-right: 150;
     
+   
 
 }
 
 div.clock2{
     box-sizing: border-box;
     text-align: center;
+    margin-left: 150px;
+ 
     
+   
+
 }
 
 div.flex{
     display: flex;
+
 }
 
-p.site{
-    
-    background: linear-gradient(to bottom, rgb(255, 255, 255), #000);
-    padding: 50px;
+
+
+
+h1{
+font-family:'Lucida Sans Unicode';
+font-size: 25px;
 }
