@@ -13,13 +13,16 @@
     cursor:pointer;
     
     }
-/*  
-    div.formreg{
+
+    .formreg{
         border-bottom: 1px solid #efefef;
         margin: 10px;
         padding-bottom: 10px;
-        width: 960px;   
+        max-width: 450px;
+        margin: 0 auto;
     }
+/*  
+
     .title{
         float: left;
         width: 100px;
