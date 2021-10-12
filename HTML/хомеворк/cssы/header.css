@@ -171,7 +171,7 @@ div.clock{
 div.clock1{
     box-sizing: border-box;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 160px;
     
 
 }
@@ -179,6 +179,7 @@ div.clock1{
 div.clock2{
     box-sizing: border-box;
     text-align: center;
+    margin-left: 130px;
     
 }
 
