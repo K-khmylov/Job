@@ -3,13 +3,14 @@
     <meta charset=utf-8">
   <title>Авторизация</title>
  
-      <link href="../cssы/регистрация.css" rel="stylesheet">
+      <link href="../css/registration.css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/header.css">
 
  </head>
 <style>
     .button {
 height:40px;
-width: 130px;
+width: 185px;
 border:none;
 background:#39b409;
 cursor:pointer;
@@ -26,21 +27,42 @@ label.font-log-pass{
     font-family: 'Times New Roman';
     size: 25px;
 }
+
+form{
+    margin-top: 40px;
+}
+label{
+    line-height: 30px;
+}
+
+
 </style>
  <body>
 
+    <header>
+        <a href="../sites/mysite.html" class="cta"> <img class="logo" src="../img/Untitled 2.svg" alt="logo"></a>
+        <img class="logo1" src="../img/clock.svg" alt="logo">
+         <nav>
+             <ul class="nav_links">
+                 <li class="nav"><a href="#">Асортимент</a></li>
+                 <li class="nav"><a href="../all html/login.html">Регистрация</a></li>
+  
+             </ul>
+         </nav>
+         <a class="cta" href="../all html/contact.html"><button class="button1">Контакты</button></a>
+    </header>
     
-<form>
+<form align="center">
     <div class="formreg">
      <fieldset>
-        <font face="Arial" size="6">Регистрация</font>
+         <legend><big><b>Регистрация</b></big></legend>
             <p>
                 <label for="text" class="title">
-                    Логин: <input type="text" name="name" placeholder="Введите ваш логин" maxlength="15" required><br><br>
-                    Пароль: <input type="text" name="second-name" placeholder="Пароль" maxlength="15" required>
+                    Логин: <input type="text"  required name="name" placeholder="Введите ваш логин" maxlength="15" required ><br>
+                    Пароль: <input type="text" required name="second-name" placeholder="Пароль" maxlength="15"  >
                  </label>
             </p>
-
+            
             <p>
                 <label class="title">
                    Email: <input type="email" name="email" placeholder="ваш email">
@@ -81,8 +103,8 @@ label.font-log-pass{
                               </select>
 
                      </p>
-               <a href="../все html/registrationdone.html">
-                <input type="button" class="button button" value="Регистрация">
+               <a href="../all html/registrationdone.html">
+                <button type="submit" class="button button">Зарегистрироваться</button>
             </a>
      </fieldset>
  

@@ -89,6 +89,10 @@ h1{
     color: rgba(65, 105, 225, 0.479);
 }
 
+h2.catalog{
+    color: rgba(0,136,169,1);
+}
+
 a.cta{
     background-color: #000;
 }
@@ -139,7 +143,8 @@ a.a1{
 
 
 button.shop{
-    font: 1em sans-serif;
+    font: Arial, sans-serif;
+    font-size: 21px;
     width: 200px;
     height: 60px;
     background-color: lawngreen;
@@ -162,7 +167,7 @@ background-position: initial;
 div.clock{
     box-sizing: border-box;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 80px;
     
    
     
@@ -171,7 +176,8 @@ div.clock{
 div.clock1{
     box-sizing: border-box;
     text-align: center;
-    margin-left: 160px;
+    margin-left: 220px;
+    
     
 
 }

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+   
+
+
+ 
+
+}
+
+li.nav, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fafafa;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+   
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    cursor: pointer;
+    background-color: black;
+  
+    
+}
+
+.logo1{
+    cursor: pointer;
+    background-color: black;
+    font-size: 1000px 150px;
+    position: relative;
+    margin-right: 260pt;
+    
+    
+}
+
+.nav_links{
+    list-style: none;
+    background-color: black;
+}
+
+.nav_links li.nav{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: black;
+}
+
+.nav_links li.nav a{
+    transition: all 0.3 ease 0s;
+    background-color: black;
+}
+
+.nav_links li.nav a:hover{
+    color: rgba(0,136,169,1);
+
+}
+
+
+
+.button1{
+        padding: 9px 25px;
+        background-color: rgba(0,136,169,1);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3 ease 0s;
+    }
+
+
+.button1:hover{
+    background-color: rgba(1, 101, 124, 0.5);
+    
+}
+
+h1{
+    color: rgba(65, 105, 225, 0.479);
+}
+
+h2.catalog{
+    color: rgba(0,136,169,1);
+}
+
+a.cta{
+    background-color: #000;
+}
+
+
+
+a.button5 {
+display: inline-block;
+color: #000;
+font-size: 12px;
+text-decoration: none;
+user-select: none;
+padding: 0 5px;
+outline: none;
+border-radius: 2px;
+}
+
+  a.button5:before {
+display: inline-block;
+vertical-align: middle;
+line-height: 1;  
+padding-right: 5px;
+}
+
+
+a.button5[data-vk]:before {content: url(https://img.icons8.com/color/48/000000/vk-circled.png);}
+a.button5[data-instagram]:before {content: url(https://img.icons8.com/fluency/48/000000/instagram-new.png);}
+a.button5:hover {
+background: linear-gradient(#575050ce, #413333c7);
+box-shadow:
+inset rgba(71, 65, 65, 0.781) 0 -1px 1px,
+inset rgba(71, 65, 65, 0.781) 0 1px,
+inset rgba(71, 65, 65, 0.781) 0 2px,
+rgba(71, 65, 65, 0.781) 0 1px 1px;
+}
+
+a.button5:active {
+background: linear-gradient(rgba(0,0,0,.2), rgba(71, 65, 65, 0.781));
+box-shadow:
+inset rgba(71, 65, 65, 0.781) 0 1px 2px,
+inset rgba(71, 65, 65, 0.781) 0 -1px 0,
+rgba(71, 65, 65, 0.781) 0 1px 1px;
+}
+
+a.a1{
+    color: rgba(0, 0, 255, 0.548);
+}
+
+
+button.shop{
+    font: Arial, sans-serif;
+    font-size: 21px;
+    width: 200px;
+    height: 60px;
+    background-color: lawngreen;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 222px;
+    margin-left: 160px;
+
+}
+
+button.shop:hover{
+    background-color: rgb(0, 205, 27);
+}
+
+img.a1{
+background-position: initial;
+}
+
+div.clock{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 50px;
+    
+   
+    
+
+}
+div.clock1{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 160px;
+    
+
+}
+
+div.clock2{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 130px;
+    
+}
+
+div.flex{
+    display: flex;
+}
+
+p.site{
+    
+    background: linear-gradient(to bottom, rgb(255, 255, 255), #000);
+    padding: 50px;
+}
