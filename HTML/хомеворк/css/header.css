@@ -197,3 +197,9 @@ p.site{
     background: linear-gradient(to bottom, rgb(255, 255, 255), #000);
     padding: 50px;
 }
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
