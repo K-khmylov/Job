@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <meta charset=utf-8">
+  <title>Авторизация</title>
+ 
+      <link href="../cssы/регистра
+      ция.css" rel="stylesheet">
+
+ </head>
+<style>
+    .button {
+height:40px;
+width: 130px;
+border:none;
+background:#39b409;
+cursor:pointer;
+color: white;
+font-family: Helvetica;
+font-size: 110%;
+
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+label.font-log-pass{
+    font-family: 'Times New Roman';
+    size: 25px;
+}
+</style>
+ <body>
+
+    
+<form>
+    <div class="formreg">
+     <fieldset>
+        <font face="Arial" size="6">Регистрация</font>
+            <p>
+                <label for="text" class="title">
+                    Логин: <input type="text" name="name" placeholder="Введите ваш логин" maxlength="15" required><br><br>
+                    Пароль: <input type="text" name="second-name" placeholder="Пароль" maxlength="15" required>
+                 </label>
+            </p>
+
+            <p>
+                <label class="title">
+                   Email: <input type="email" name="email" placeholder="ваш email">
+                </label>
+            </p>
+           
+            <p>
+                <label class="title">
+                   Дата рождения: <input type="date" name="дата рождения" min="1900-31-12" max="2021-31-12">
+                </label>
+            </p>
+
+                <label for="пол" class="title">
+                    <legend type="пол"><font size="4">пол</font></legend>
+                        <label>
+                            <input type="radio" name="пол" value="Значение" > <font size="3">мужской</font>
+                        </label>
+                        <label>
+                            <input type="radio" name="пол" value="Значение" > <font size="3">женский</font>
+                        </label>
+
+                </label>
+
+                
+
+                     <p>
+                        <label for="country" class="title">Страна проживания</label>
+                            <select name="county">
+                                <option disabled >Выберите страну</option>
+                                 <option value="Беларусь">Беларусь</option>
+                                 <option value="Россия">Россия</option>
+                                 <option value="Германия">Германия</option>
+                                 <option value="Словакия">Словакия</option>
+                                 <option value="Бельгия">Бельгия</option>
+
+
+
+                              </select>
+
+                     </p>
+               <a href="../все html/registrationdone.html">
+                <input type="button" class="button button" value="Регистрация">
+            </a>
+     </fieldset>
+ 
+
+
+
+
+
+
+</form>
+</h3>
+
+  
+ </body>
+
+
+
+
+</html>
