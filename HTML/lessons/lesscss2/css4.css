@@ -1,0 +1,20 @@
+.ul1{
+    list-style:decimal;
+    
+
+}
+.li1{
+    font-weight: bold;
+    
+}
+.ul2{
+    list-style:decimal;
+}
+.disk{
+    list-style-type:  disc;
+}
+
+.circle{
+    font-weight: bold;
+    font-style: italic;
+}
